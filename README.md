@@ -13,11 +13,11 @@ You really should be using Tim Pope's [Pathogen](https://github.com/tpope/vim-pa
 
 Using wget:
 
-```mkdir -p ~/.vim/{ftdetect,indent,syntax} && for d in ftdetect indent syntax ; do wget -O ~/.vim/$d/scala.vim https://raw.githubusercontent.com/derekwyatt/vim-scala/master/$d/scala.vim; done```
+```mkdir -p ~/.vim/{ftdetect,indent,syntax} && for d in ftdetect indent syntax ; do wget -O ~/.vim/$d/scala.vim https://raw.githubusercontent.com/pulbhaba/vim-scala/master/$d/scala.vim; done```
 
 Using cURL:
 
-```mkdir -p ~/.vim/{ftdetect,indent,syntax} && for d in ftdetect indent syntax ; do curl -o ~/.vim/$d/scala.vim https://raw.githubusercontent.com/derekwyatt/vim-scala/master/$d/scala.vim; done```
+```mkdir -p ~/.vim/{ftdetect,indent,syntax} && for d in ftdetect indent syntax ; do curl -o ~/.vim/$d/scala.vim https://raw.githubusercontent.com/pulbhaba/vim-scala/master/$d/scala.vim; done```
 
 ### Vundle
 Alternatively, you can use [Vundle](https://github.com/gmarik/vundle) to
@@ -26,7 +26,7 @@ manage your plugins.
 If you have Vundle installed, simply add the following to your .vimrc:
 
 ```vim
-Plugin 'derekwyatt/vim-scala'
+Plugin 'pulbhaba/vim-scala'
 ```
 
 and then run
